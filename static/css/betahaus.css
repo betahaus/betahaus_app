@@ -1,0 +1,30 @@
+h1, h2, h3, h4 {
+  font-family: "museo" !important;
+}
+
+h1, h2 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.tag {
+  margin-right: 0.25em;
+  margin-bottom: 0.5em;
+}
+
+.tags {
+}
+
+.table-view .table-view-cell {
+}
+
+h1#betahaus-logo {
+  background-image: url("/static/img/betahaus_logo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+  font-size: 1px;
+
+  height: 4rem;
+  margin: 2rem;
+}

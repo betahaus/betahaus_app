@@ -1,0 +1,13 @@
+{
+  "name": "betahaus_app",
+  "version": "0.1.0",
+  "description": "Betahaus Member Directory",
+  "homepage": "https://github.com/betahaus/betahaus_app",
+  "main": "app.js",
+  "dependencies": {
+    "express": "latest",
+    "swig": "latest",
+    "body-parser": "latest",
+    "multer": "latest"
+  }
+}

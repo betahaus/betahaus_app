@@ -1,0 +1,45 @@
+{% extends 'layout.html' %}
+{% block main %}
+<header class="bar bar-nav">
+  <h1 class="title">People in Betahaus</h1>
+</header>
+
+<div class="content">
+  <div class="content-padded">
+    <input type="search" placeholder="Search">
+  </div>
+
+  <ul class="table-view">
+    <li class="table-view-cell media">
+      <a class="navigate-right">
+        <img class="media-object pull-left" src="http://placehold.it/64x64">
+        <div class="media-body">
+          <h3>Hans Müllerington</h3>
+          <div class="tags">
+            <span class="btn btn-primary tag">Graphic Design</span>
+            <span class="btn btn-primary btn-outlined tag">C++</span>
+            <span class="btn btn-primary btn-outlined tag">DJ</span>
+          </div>
+          <p>Ich gehe krass an den Start!</p>
+        </div>
+      </a>
+    </li>
+
+    
+    <li class="table-view-cell media">
+      <a class="navigate-right">
+        <img class="media-object pull-left" src="http://placehold.it/64x64">
+        <div class="media-body">
+          <h3>Lisa Foo Schnicken</h3>
+          <div class="tags">
+            <span class="btn btn-primary tag">Programming</span>
+            <span class="btn btn-primary btn-outlined tag">Ruby on Rails</span>
+          </div>
+          <p>Ich gehe krass an den Start!</p>
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>
+
+{% endblock %}
