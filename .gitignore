@@ -1,3 +1,5 @@
 .DS_Store
 config.json
 node_modules
+cached_members.json
+config.js

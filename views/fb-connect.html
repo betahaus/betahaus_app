@@ -7,10 +7,10 @@
 
 <div class="content">
   <div class="content-padded">
-    <h1 id="#betahaus-logo">Connect your Facebook Account</h1>
-    <p>Here some explanation of the benefits of connecting Facebook.</p>
-    <a class="btn btn-primary btn-block" href="complete-profile.html">FB Login</a>
-    <a class="btn btn-block" href="complete-profile.html">Skip</a>
+    <h1 id="#betahaus-logo">Connect your Facebook</h1>
+    <p>Welcome, <b>{{user.email}}!</b> Here some explanation of the benefits of connecting Facebook.</p>
+    <a class="btn btn-primary btn-block" href="complete-profile.html?token={{token.access_token}}">FB Login</a>
+    <a class="btn btn-block" href="complete-profile.html?token={{token.access_token}}">Skip</a>
   </div>
 </div>
 
